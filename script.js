@@ -30,22 +30,24 @@ for (let i = 0; i < a.length; i++) {
         }
 
 
-// string = "Amolya Sharma"
-// for (let i = 0; i < a.length; i++) {
-//     if (a[i] != " ") {
-//         let count = 0;
-//         for (let j = i; j < a.length; j++) {
-//             if (a[j] == a[i]) {
-//                 count += 1
-//                 } else {
-//                     break
-//                 }
-//             }
-//             if(a[i] = a[i]){
-//                 console.log(a[i] + "-" + count)
-//             }
-//         }
-//     }
+let b = 'Chinmay Kulkarni';
+b = b.toUpperCase()
+const charrCount = {};
+for (let i = 0; i < b.length; i++) {
+    const char = b[i];
+    if (char in charrCount) {
+        charrCount[char] += 1;
+        } else {
+            charrCount[char] = 1;
+            }
+            }
+            for (let key in charrCount) {
+                console.log(`${key}-${charrCount[key]}`);
+        }
+
+
+
+
 
 
 
