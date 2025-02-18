@@ -12,6 +12,22 @@ S-1
 H-1
 R-1
 
+Example 1: Chinmay Kulkarni
+The expected answer would be:
+C-1
+H-1
+I-1
+N-2
+M-1
+A-2
+Y-1
+K-2
+U-1
+L-1
+R-1
+I-1
+
+
 */
 
 let a = 'Amolya Sharma';
