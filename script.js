@@ -16,6 +16,7 @@ R-1
 
 let a = 'Amolya Sharma';
 a = a.toUpperCase()
+a = a.replace(" ","")
 const charCount = {};
 for (let i = 0; i < a.length; i++) {
     const char = a[i];
@@ -32,6 +33,7 @@ for (let i = 0; i < a.length; i++) {
 
 let b = 'Chinmay Kulkarni';
 b = b.toUpperCase()
+b = b.replace(" ","")
 const charrCount = {};
 for (let i = 0; i < b.length; i++) {
     const char = b[i];
